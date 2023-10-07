@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="phnNumber">Contact Number</label>
+            <input type="tel" name="phnNumber" id="phnNumber" maxlength="10">
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="sex">Select your gender</label><br>
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="female" id="female"><br>
+            <label for="others">Others</label>
+            <input type="radio" name="others" id="others">
+
+        </div>
+        <div>
+            <label for="interests">Area of Interest:</label><br>
+        <input type="checkbox" id="interest1" name="interest" value="interest1">
+        <label for="interest1">Interest 1</label><br>
+        <input type="checkbox" id="interest2" name="interest" value="interest2">
+        <label for="interest2">Interest 2</label><br>
+        <input type="checkbox" id="interest3" name="interest" value="interest3">
+        <label for="interest3">Interest 3</label><br><br>
+        </div>
+        <div>
+            <label for="experience">Experience:</label>
+            <select id="experience" name="experience">
+                <option value="0-1">0-1 years</option>
+                <option value="1-3">1-3 years</option>
+                <option value="3-5">3-5 years</option>
+                <option value="5+">5+ years</option>
+            </select><br><br>
+    
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
